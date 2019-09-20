@@ -23,27 +23,27 @@ describe('demo calculator tests', function () {
     browser.sleep(2000)
 
   });
-  //it('subtraction test', function () {
+  it('subtraction test', function () {
 
     //browser.get('http://juliemr.github.io/protractor-demo/');
-    //homepage.get('http://juliemr.github.io/protractor-demo/');
+    homepage.get('http://juliemr.github.io/protractor-demo/');
 
     //element(by.model('first')).sendKeys('2');
-    //homepage.enterFirstNumber('4');
+    homepage.enterFirstNumber('4');
 
     //element(by.model('second')).sendKeys('4');
-    //homepage.enterSecondNumber('3');
+    homepage.enterSecondNumber('3');
 
     //element(by.css('[ng-click="doAddition()"]')).click();
-    //homepage.clickGo1();
+    homepage.clickGo1();
 
     //let result = element(by.cssContainingText('.ng-binding','6'));
     //expect(result.getText()).toEqual('6')
-    //homepage.verifyResult('7');
+    homepage.verifyResult('7');
 
-    //browser.sleep(3000)
+    browser.sleep(3000)
 
-  //});
+  });
 
 });
 
